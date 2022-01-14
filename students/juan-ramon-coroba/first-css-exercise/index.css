@@ -6,21 +6,18 @@ div p {
     color: darkred;
 }
 
-p:hover {
+p.hover:hover {
     cursor:crosshair ;
 }
 
 .p-serif {
-    font-family: sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .principal{
     display: block;
 }
 
-span{
-    width: 100%;
-}
 .bloque{
     display: block;
 }
