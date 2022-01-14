@@ -21,3 +21,8 @@ p.hover:hover {
 .bloque{
     display: block;
 }
+   
+#menu a{
+    background-color: white;
+    text-decoration: none;
+    }
