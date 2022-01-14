@@ -1,0 +1,26 @@
+* {
+    margin: 10px;
+}
+
+div p {
+    color: darkred;
+}
+
+p:hover {
+    cursor:crosshair ;
+}
+
+.p-serif {
+    font-family: sans-serif;
+}
+
+.principal{
+    display: block;
+}
+
+span{
+    width: 100%;
+}
+.bloque{
+    display: block;
+}
