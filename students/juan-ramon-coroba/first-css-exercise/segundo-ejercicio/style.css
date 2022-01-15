@@ -8,3 +8,9 @@ header {
     text-decoration: none;
 }
 
+.titulo1 {
+    border: 5px solid darkblue;
+    height: 150px;
+    width: 150px;
+    background-color: lightblue;
+}
