@@ -1,0 +1,28 @@
+* {
+    margin: 10px;
+}
+
+div p {
+    color: darkred;
+}
+
+p.hover:hover {
+    cursor:crosshair ;
+}
+
+.p-serif {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    display: block;
+}
+
+.bloque{
+    display: block;
+}
+   
+#menu a{
+    background-color: white;
+    text-decoration: none;
+    }
