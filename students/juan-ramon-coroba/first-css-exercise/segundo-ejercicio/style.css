@@ -34,3 +34,33 @@ header {
     text-align: center;
     font-size: 1.5rem;
 }
+
+.redondo {
+    border: 5px solid #000000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.instagram {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: deeppink;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+main {
+    margin-left: 10px;
+}
