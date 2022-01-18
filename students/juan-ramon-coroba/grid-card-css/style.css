@@ -73,3 +73,13 @@
 h6{
     margin-bottom: 5px;
 }
+
+.card__image:hover{
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.grid__layout{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+}
