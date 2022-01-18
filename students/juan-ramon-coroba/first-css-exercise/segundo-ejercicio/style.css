@@ -34,3 +34,53 @@ header {
     text-align: center;
     font-size: 1.5rem;
 }
+
+.redondo {
+    border: 5px solid #000000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.instagram {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: deeppink;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+main {
+    margin-left: 10px;
+}
+
+.flexdiv div {
+    width: 350px;
+    height: 350px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.flexdiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexdiv div:nth-child(even) {
+    background-color: rgb(214, 13, 187);
+}
+
+.flexdiv div:nth-child(odd) {
+    background-color: #c90505;
+}
