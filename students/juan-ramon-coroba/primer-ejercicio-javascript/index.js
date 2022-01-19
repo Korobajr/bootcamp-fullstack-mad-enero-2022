@@ -49,8 +49,7 @@ document.write(tempCelsius * 1.8 + 32)
 document.write("<br></br>")
 
 document.write((tempCelsius * 1.8 + 32) >= 87)
-
+document.write("<br></br>")
 let numero = 55;
 let numero1 = "55";
-
 document.write(numero == numero1)
