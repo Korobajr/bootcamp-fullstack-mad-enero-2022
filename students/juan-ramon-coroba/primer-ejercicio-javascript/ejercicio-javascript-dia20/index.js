@@ -1,0 +1,1 @@
+let semaforo = prompt ('Selecciona un color del semaforo')
