@@ -1,0 +1,47 @@
+.container_ {
+    height: 100px;
+    width: 100px;
+    background-color: #8756F3;
+}
+.container_1 {
+    height: 100px;
+    width: 100px;
+    background-color: #12F467;
+}
+
+.container_2 {
+    height: 100px;
+    width: 100px;
+    background-color: #007743;
+}
+
+.semaforo {
+    background-color: rgb(2, 29, 2);
+    height: 200px;
+    width: 100px;
+    
+}
+
+.rojo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: black 5px;
+    background-color: red;
+}
+
+.verde {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: black 5px;
+    background-color: rgb(30, 255, 0);
+}
+
+.amarillo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: black 5px;
+    background-color: rgb(255, 166, 0);
+}
