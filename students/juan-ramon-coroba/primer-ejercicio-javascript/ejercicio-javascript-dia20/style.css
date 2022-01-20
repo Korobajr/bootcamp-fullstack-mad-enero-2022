@@ -22,26 +22,21 @@
     
 }
 
-.rojo {
+.semaforo__circulo{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: black 5px;
-    background-color: red;
+    border: 5px solid white;
 }
 
-.verde {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: black 5px;
-    background-color: rgb(30, 255, 0);
-}
+.semaforo__circulo.rojo {
+    background-color: rgb(255, 0, 0);
+  }
 
-.amarillo {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: black 5px;
-    background-color: rgb(255, 166, 0);
-}
+.semaforo__circulo.amarillo {
+    background-color: rgb(255, 157, 0);
+  }
+
+.semaforo__circulo.verde {
+    background-color: rgb(81, 255, 0);
+  }
