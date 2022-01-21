@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio beca</title>
+</head>
+<body>
+    <script>
+        let subjectNotesAcc= 0; // inicio el acumulador de notas en 0
+        let subjectoPassedCount = 0; // Inicio el contador de asignaturas aprobadas en 0
+
+        let currentSubjectNote = parseFloat(prompt('Indicame la nota de la siguiente asignatura'))
+        if(!isNan(currentSubjectNote)){
+            subjectNotesAcc +- currentSubjectNote; // añado la nota al acumulador
+            subjectoPassedCount +- currentSubjectNote >=5 ? 1 : 0; //sumo 1 si esta aprobada
+        }
+
+        document.write(`<p>La cantidad de asignaturas aprobadas es: ${subjectoPassedCount}</p>`);
+        document.write(`<p>La nota media es: ${subjectNotesAcc/7}</p>`)
+        document.write(`<p>Puedes optar a beca: ${subjectoPassedCount >=5 && (subjectNotesAcc/7) >= 6}`)
+
+    </script>
+    
+</body>
+</html>
