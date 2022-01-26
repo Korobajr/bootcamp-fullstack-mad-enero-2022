@@ -27,13 +27,13 @@ let userInput= true
 document.write(paramType(userInput))
 
 
-const a= prompt('Introduce un true o un false')
+const a= prompt('Introduce un true o un false') === 'true';
 const b= prompt('Introduce un true o un false')
 
 function bool(a,b){
     let n= a=== 'True';
     let m= b=== 'True';
-    return n||m
+    return n && m
 }
 
 document.write(bool(a,b))
@@ -51,5 +51,7 @@ function reves(a){
 
 document.write(reves(num))
 */
+
+
 
 
